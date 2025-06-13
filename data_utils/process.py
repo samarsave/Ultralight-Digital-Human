@@ -2,7 +2,7 @@ import os
 import cv2
 import argparse
 import numpy as np
-from import tqdm
+from tqdm import tqdm
 
 def extract_audio(path, out_path, sample_rate=16000):
     
